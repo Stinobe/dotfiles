@@ -1,5 +1,5 @@
 return {
-	dir = "~/Sites/nvim-pomodoro",
+	dir = "Stinobe/nvim-pomodoro",
 	dependencies = { "MunifTanjim/nui.nvim" },
 	config = function()
 		require("pomodoro").setup({
