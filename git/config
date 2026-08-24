@@ -19,5 +19,4 @@
     wip = "!f() { git add -u; git commit -m \"wip: $1\" --no-verify; }; f"
 
 [include]
-	path = $XDG_CONFIG_HOME/git/personal
-
+	path = personal
