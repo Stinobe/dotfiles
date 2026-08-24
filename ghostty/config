@@ -1,0 +1,30 @@
+# Setting the theme
+theme = light:TokyoNight Moon,dark:TokyoNight Night
+
+# Setting the font
+font-size = 15
+font-feature = +liga
+font-family =JetBrainsMono Nerd Font Mono,Menlo,Monaco
+
+# Start in maximized state
+maximize = false
+
+# Shell integration features
+shell-integration-features = cursor,no-sudo,title,ssh-env,ssh-terminfo,path
+
+# Set fullscreen mode
+macos-non-native-fullscreen = true
+
+# Hide the traffic lights
+macos-window-buttons = hidden
+
+# Hide current path icon
+macos-titlebar-proxy-icon = hidden
+
+# Use right option key as alt
+macos-option-as-alt = right
+
+# Change the icon (for fun)
+macos-icon = xray
+macos-icon-frame = beige
+

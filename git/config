@@ -1,0 +1,23 @@
+[core]
+	editor = nvim
+	autocrlf = input
+	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+
+[color]
+	ui = auto
+
+[merge]
+    conflictStyle = diff3
+
+[init]
+	defaultBranch = main
+
+[alias]
+	s = status -s -b -u --show-stash --ahead-behind --renames
+    l = log --oneline -n 20 --graph --abbrev-commit --decorate
+	unstage = reset HEAD --
+    wip = "!f() { git add -u; git commit -m \"wip: $1\" --no-verify; }; f"
+
+[include]
+	path = $XDG_CONFIG_HOME/git/personal
+

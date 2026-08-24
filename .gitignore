@@ -1,0 +1,10 @@
+git/*
+!git/config
+
+zsh/*
+!zsh/.zshrc
+
+.DS_Store
+
+.zcompdump-*
+
